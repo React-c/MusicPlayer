@@ -53,6 +53,7 @@ export default function PlayerScreenforMusic(data) {
     }
     console.log('slidervalue', sliderValue)
   }, []);
+  
 
   const slidingStarted = () => {
     setIsSeeking(true);
